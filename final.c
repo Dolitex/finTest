@@ -19,6 +19,15 @@ int main()
 		scanf("");
 	}
 
+	else if(comando == '-')
+	{
+		scanf("%d %d", &n1, &n2);
+
+		result = n1 - n2;
+
+		printf("%d", result);
+		scanf("");
+	}
 
 	return 0;
 }
